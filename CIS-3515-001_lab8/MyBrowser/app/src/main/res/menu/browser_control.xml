@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/newWebView"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/newWebView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/rightFragment"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="@string/rightFragment"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/leftFragment"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/leftFragment"
+        app:showAsAction="always" />
+</menu>
