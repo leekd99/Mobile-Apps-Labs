@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/stockList"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:id="@+id/addstock"
+            android:layout_width="147dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="@string/add_message" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/stockDetail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addStockFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:clickable="true"
+            app:backgroundTint="@color/design_default_color_primary_dark"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+    </FrameLayout>
+
+
+</LinearLayout>

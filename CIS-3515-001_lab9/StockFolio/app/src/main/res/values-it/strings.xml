@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StockFolio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dialog_title">Cerca Stock</string>
+    <string name="dialog_message">Inserisci il simbolo del titolo</string>
+    <string name="dialog_add_stock">Aggiungi azione</string>
+    <string name="dialog_close">vicina</string>
+    <string name="add_message">Si prega di aggiungere un titolo</string>
+
+    <string name="company_name">Nome della ditta</string>
+    <string name="opening_price">Prezzo di apertura</string>
+    <string name="current_price">Prezzo attuale</string>
+
+    <string name="stock_chart_url">https://macc.io/lab/cis3515/?symbol=</string>
+    <string name="stock_ticker_search_url">http://dev.markitondemand.com/MODApis/Api/v2/Quote/json/?symbol=</string>
+    <string name="stock_file_error">Non è stato possibile trovare informazioni sulla scorta!</string>
+    <string name="update_stock_not_found">Non siamo riusciti a trovare questo stock: </string>
+
+    <string name="volley_on_error_response">Qualcosa è andato storto!!</string>
+    <string name="volley_error_invalid_ticker">Non riesci a trovare tale ticker, prova un altro</string>
+
+</resources>

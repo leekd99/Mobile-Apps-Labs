@@ -1,9 +1,9 @@
 package edu.temple.paletteactivity;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class PaletteActivity extends AppCompatActivity implements MasterFragment.selectColor {
 

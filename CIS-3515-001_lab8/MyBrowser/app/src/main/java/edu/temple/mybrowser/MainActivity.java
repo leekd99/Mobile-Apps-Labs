@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements WebFragment.loadN
                 myPager.arrowScroll(View.FOCUS_RIGHT);
                 urlTextView.setText(intent.getData().toString());
 
+                //Your implementation for loading url to web fragment
                 tabs.get(myPager.getCurrentItem()).givenURL = intent.getData().toString();
 
                 Log.d("#################", intent.getData().toString());

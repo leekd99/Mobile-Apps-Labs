@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StockFolio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="dialog_title">Search Stock</string>
+    <string name="dialog_message">Enter Stock Symbol</string>
+    <string name="dialog_add_stock">Add Stock</string>
+    <string name="dialog_close">close</string>
+    <string name="add_message">Please add a Stock</string>
+
+    <string name="company_name">Company name</string>
+    <string name="opening_price">Opening Price</string>
+    <string name="current_price">Current Price</string>
+
+    <string name="stock_chart_url">https://macc.io/lab/cis3515/?symbol=</string>
+    <string name="stock_ticker_search_url">http://dev.markitondemand.com/MODApis/Api/v2/Quote/json/?symbol=</string>
+    <string name="stock_file_error">Stock info could not be found!</string>
+    <string name="update_stock_not_found">We could not find this stock: </string>
+
+    <string name="volley_on_error_response">Something went Wrong!!</string>
+    <string name="volley_error_invalid_ticker">Can not find such ticker, try another one</string>
+
+</resources>
